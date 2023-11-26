@@ -24,7 +24,7 @@ function NewMeetupForm(props) {
       description: enteredDescription,
     };
 
-    props.onAddMeetup(meetupData);
+    props.onAddMeetup(meetupData); // data going to /new-meetup/index.js (NewMeetupPage)
   }
 
   return (
